@@ -144,7 +144,7 @@ body, html {
         letter-spacing: .01em;
         text-align: left;
         font-family:Georgia, 'Times New Roman', Times, serif;
-        padding-top:10%;
+        padding-top:13%;
         font-weight: 350;
         line-height: 1.75;
     }
@@ -265,15 +265,20 @@ body, html {
     margin-right: 50px;
     margin-left: 50px;
     padding: 0%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0%;
     color: lightgray;
+    font-weight: 400;
+    font-family: hel;
     a {
         text-decoration: none;
         color: lightgray;
         }
+    .navclass:hover a{   
+        color: darkgray;
+    }
     ul {
         padding: 0;
         list-style-type: none;
